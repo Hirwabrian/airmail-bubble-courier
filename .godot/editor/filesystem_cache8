@@ -1,3 +1,11 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1754394807
+::res://::1754409594
 icon.svg::CompressedTexture2D::2471280806967802154::1754394797::1754394808::1::::<><>::
+::res://Scenes/::1754409753
+level_1.tscn::PackedScene::2386372752574513481::1754409297::0::1::::<><>::
+Bubble.tscn::PackedScene::3930447278755683865::1754409753::0::1::::<><>::uid://cd1l2jlhdc8lb::::res://sprites/reduced bubbler.png
+::res://sprites/::1754410138
+big letter.png::CompressedTexture2D::1421483859672123244::1754410138::1754410141::1::::<><>::
+letter.png::CompressedTexture2D::3580407879199550662::1754406130::1754409175::1::::<><>::
+reduced bubbler.png::CompressedTexture2D::5037798313286890715::1754409511::1754409517::1::::<><>::
+test buble 1.png::CompressedTexture2D::3838976758899912383::1754407801::1754409175::1::::<><>::

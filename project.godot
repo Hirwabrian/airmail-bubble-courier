@@ -11,9 +11,15 @@ config_version=5
 [application]
 
 config/name="AirMail: The Bubble Courier"
+run/main_scene="res://Scenes/level_1.tscn"
 config/features=PackedStringArray("4.2", "Mobile")
 config/icon="res://icon.svg"
 
+[input_devices]
+
+pointing/emulate_touch_from_mouse=true
+
 [rendering]
 
+textures/canvas_textures/default_texture_filter=0
 renderer/rendering_method="mobile"

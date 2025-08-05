@@ -1,0 +1,4 @@
+res://Scenes/level_1.tscn
+res://Scenes/Bubble.tscn
+res://Scenes/letter.tscn
+res://scripts/Bubble.gd

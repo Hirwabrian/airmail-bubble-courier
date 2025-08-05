@@ -1,0 +1,24 @@
+[gd_scene load_steps=5 format=3 uid="uid://bv865lwj1uvg0"]
+
+[ext_resource type="Texture2D" uid="uid://cd1l2jlhdc8lb" path="res://sprites/reduced bubbler.png" id="1_2kdh3"]
+[ext_resource type="Script" path="res://scripts/Bubble.gd" id="1_5q1sp"]
+[ext_resource type="PackedScene" uid="uid://diiaitqnnw61g" path="res://Scenes/letter.tscn" id="2_a481i"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_eeg06"]
+radius = 40.1123
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(142, 118)
+script = ExtResource("1_5q1sp")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+scale = Vector2(2, 2)
+texture = ExtResource("1_2kdh3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+visible = false
+shape = SubResource("CircleShape2D_eeg06")
+
+[node name="letter" parent="." instance=ExtResource("2_a481i")]
+position = Vector2(2, 0)
+scale = Vector2(0.75, 0.75)
